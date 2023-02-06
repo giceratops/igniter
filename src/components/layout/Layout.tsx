@@ -2,8 +2,8 @@ import { Flex } from '@chakra-ui/react';
 import Head from 'next/head';
 import type { ReactNode } from 'react';
 import { IgniterProvider } from './IgniterProvider';
-import { Footer } from '../nav/Footer';
-import { Navbar } from '../nav/Navbar';
+import { Footer } from './Footer';
+import { Navbar } from './Navbar';
 
 export type LayoutProps = {
   children: ReactNode

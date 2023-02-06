@@ -21,6 +21,6 @@
       ]
     },
   },
-  "include": ["../next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.mjs", "../next.config.mjs"],
+  "include": ["../next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.mjs", "../next.config.mjs", "src/pages/cron.,tsx", "src/pages/cron.,tsx"],
   "exclude": ["node_modules"]
 }

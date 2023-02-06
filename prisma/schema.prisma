@@ -15,3 +15,12 @@ model Example {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
+
+model NavItem {
+    id       String    @id @default(cuid())
+    name     String
+    link     String
+    navId    String?
+    parent  NavItem?  @relation("NavSubItems", fields: [navId], references: [id])
+    children NavItem[] @relation("NavSubItems")
+}
